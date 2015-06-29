@@ -1,0 +1,35 @@
+---
+- !ruby/object:Contact
+  phone_numbers: []
+  addresses: []
+  first_name: Nick
+  middle_name: Teddy
+  last_name: Queen
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Home
+    number: 555-555-5555
+  addresses: []
+  first_name: Jason
+  middle_name: ''
+  last_name: Seifer
+- !ruby/object:Contact
+  phone_numbers:
+  - !ruby/object:PhoneNumber
+    kind: Suit
+    number: 565-453-5435
+  - !ruby/object:PhoneNumber
+    kind: ''
+    number: ''
+  addresses:
+  - !ruby/object:Address
+    kind: Work
+    street_1: Stark Tower
+    street_2: ''
+    city: New York
+    state: NY
+    postal_code: '11111'
+  first_name: Tony
+  middle_name: ''
+  last_name: Stark
